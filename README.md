@@ -10,8 +10,8 @@ More info at: https://choosealicense.com/no-permission/#for-users
 # AnnotationInVirtualReality
 -->
 
-# VR-Annotation-Scripts
-This repositorycontains the C# code for a virtual reality prototype in Unity.
+# Scripts for Annotation in Virtual Reality
+This repository contains the C# code for a virtual reality prototype in Unity.
 
 
 * `AnnotationController.cs`: A Unity component with all code related to the annotation object.
