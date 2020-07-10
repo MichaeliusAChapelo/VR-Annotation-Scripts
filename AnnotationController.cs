@@ -56,8 +56,9 @@ public class AnnotationController : MonoBehaviour
         DefaultRotation = transform.rotation;
         Origin = transform.parent;
 
-        //AnnotationObject = GameObject.FindWithTag("AnnotationObject");
         AnnotationObject = AnnotationObjects[0];
+        if (AnnotationObject == null)
+            AnnotationObject = GameObject.FindWithTag("AnnotationObject");
 
         LaserLine = GetComponent<LineRenderer>();
 
